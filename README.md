@@ -26,9 +26,29 @@ Connects with my homeassistant server so that whenever a particular cassette wit
 ![cad1](assets/cad1.png)
 ![cad2](assets/cad2.PNG)
 ![cad3](assets/cad3.PNG)
-![wiring diagram](assets/wiring_diagram.jpeg)
 
-## BOM
+## Wiring Diagram
+
+### Raspberry Pi Pico W2 Connections
+
+![wiring diagram](assets/wiring.jpg)
+| Component | Pico W2 Pin | Component Pin |
+| -------------------------- | ----------- | ------------- |
+| **OLED Display (SSD1306)** | | |
+| VCC | 3V3 (OUT) | VCC |
+| GND | GND | GND |
+| SCL | GP1 | SCL |
+| SDA | GP0 | SDA |
+| **RN532 NFC Reader** | | |
+| VCC | 3V3 (OUT) | VCC |
+| GND | GND | GND |
+| SCK | GP6 | SCK |
+| MISO | GP4 | MISO |
+| MOSI | GP7 | MOSI |
+| SS (SDA) | GP5 | SDA |
+| RST | GP22 | RST |
+
+\*## BOM
 
 | Item                     | Price (USD) | Link                                                            |
 | ------------------------ | ----------- | --------------------------------------------------------------- |
@@ -38,4 +58,6 @@ Connects with my homeassistant server so that whenever a particular cassette wit
 | NFC Stickers             | $12         | [Amazon](https://a.co/d/4Vh8Zmm)                                |
 | 3D Print Parts           | Free        | Have access to a 3d printer                                     |
 | Cassettes                | Free        | Have a bunch already                                            |
-| TOTAL                    | $45         |                                                                 |
+| **TOTAL**                | **$45**     |                                                                 |
+
+-
