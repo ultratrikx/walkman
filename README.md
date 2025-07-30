@@ -24,8 +24,8 @@ Connects with my homeassistant server so that whenever a particular cassette wit
 ## Pictures
 
 ![cad1](assets/cad1.png)
-![cad2](assets/cad2.PNG)
-![cad3](assets/cad3.PNG)
+![cad2](assets/cad2.png)
+![cad3](assets/cad3.png)
 
 ## Wiring Diagram
 
