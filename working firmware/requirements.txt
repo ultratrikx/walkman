@@ -1,0 +1,13 @@
+# Required CircuitPython Libraries for NFC F19 Key Sender
+# Download from: https://circuitpython.org/libraries
+# Copy .mpy files to /lib folder on Pico W
+
+adafruit_ssd1306.mpy
+adafruit_pn532/
+adafruit_bus_device/
+adafruit_hid/
+
+# Note: These are folder structures for the libraries:
+# adafruit_pn532/ should contain: __init__.py, adafruit_pn532.mpy, i2c.mpy, spi.mpy, uart.mpy
+# adafruit_bus_device/ should contain: __init__.py, i2c_device.mpy, spi_device.mpy  
+# adafruit_hid/ should contain: __init__.mpy, keyboard.mpy, keycode.mpy, consumer_control.mpy, etc.
