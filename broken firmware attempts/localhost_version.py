@@ -4,8 +4,8 @@ import base64
 import urllib.parse
 
 # Fill these in from your Spotify Developer app
-CLIENT_ID = "2d5d8cc0d20d4f5381a5398bef6b6ddc"
-CLIENT_SECRET = "af8d16027c3e49d3a4adc879a6cde04f"
+CLIENT_ID = "OOPS NO KEY"
+CLIENT_SECRET = "DONT PUSH KEYS TO PROD"
 REDIRECT_URI = "http://localhost:8080/callback"  # Using localhost instead of 127.0.0.1
 
 # Scopes needed for playback control
