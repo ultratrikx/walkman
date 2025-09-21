@@ -67,3 +67,7 @@ Next steps:
 -   improve case design, because it doesn't really fit the casettes i have, also make it more polished bc it lowk ugly rn
 
 ![polished](assets/polished.jpeg)
+
+Demo Video:
+
+[video](assets/video.mp4)
